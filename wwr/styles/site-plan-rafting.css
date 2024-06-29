@@ -1,0 +1,59 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
+
+/* CSS Variables */
+:root {
+  --primary-color: #ce8147;
+  --secondary-color: #c5dca0;
+  --accent-color: #040D10;
+  --additional-accent-color: #fcfafa;
+  --heading-font: 'Merriweather', sans-serif;
+  --paragraph-font: 'Montserrat', sans-serif;
+  --nav-bg-color: #34495e;
+  --nav-link-color: #ecf0f1;
+  --nav-hover-link-color: #3498db;
+  --nav-hover-bg-color: #2c3e50;
+}
+
+/* Body Styles */
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Header Styles */
+header {
+  padding: 20px;
+  background-color: var(--accent-color);
+}
+
+/* Paragraph Styles */
+p {
+  padding: 10px 0;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: var(--nav-bg-color);
+  padding: 10px;
+}
+
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-bg-color);
+}
