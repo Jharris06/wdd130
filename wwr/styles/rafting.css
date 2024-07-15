@@ -130,3 +130,24 @@ section img {
         font-size: 2rem;
     }
 }
+
+.figure-flex {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 16px; 
+    justify-content: space-between; 
+}
+
+.figure-flex figure {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.figure-flex img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
