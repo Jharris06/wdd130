@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+    <form action="submit-quiz.php" method="post">
+        <fieldset>
+            <legend>Quiz Questions</legend>
+            
+            <label for="q1">1. What is the purpose of the `id` attribute in HTML?</label>
+            <input type="text" id="q1" name="q1" required>
+            
+            <label for="q2">2. Explain the difference between class and id selectors in CSS:</label>
+            <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
+            
+            <label for="q3">3. Which CSS property is used to change the background color?</label>
+            <select id="q3" name="q3" required>
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="background-color">background-color</option>
+                <option value="color">color</option>
+                <option value="border">border</option>
+            </select>
+            
+            <label for="q4">4. How many digits can an integer input field accept?</label>
+            <input type="number" id="q4" name="q4" min="1" max="100" required>
+            
+            <button type="submit">Submit Quiz</button>
+        </fieldset>
+    </form>
+</body>
+</html>
