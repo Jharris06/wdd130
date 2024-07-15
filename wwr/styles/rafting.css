@@ -111,10 +111,10 @@ footer a img {
     margin: 0 0.5rem;
 }
 
-.social img {
+.social-links img {
     width: 24px;
     height: auto;
-    vertical-align: middle;
+    display: inline-block;
 }
 
 /* Additional Styles for Sections */
