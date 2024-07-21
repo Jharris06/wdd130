@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Harris River Rafting</title>
+    <meta name="description" content="Get in touch with Harris River Rafting. Find our contact information and reach out with your inquiries through our contact form.">
+    <meta name="author" content="Joe Harris">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <div></div>
+        <img src="images/logo.jpg" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 123 Rafting Lane, Durango, CO 12345</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> contact@harrisriverrafting.com</p>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184942.4739066419!2d-107.91281039740454!3d37.27530643775887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8730287d24db7ef7%3A0x14b7a74483dfb0a!2sDurango%2C%20CO!5e0!3m2!1sen!2sus!4v1620828547927!5m2!1sen!2sus" 
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        
+        <section id="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="figure-flex">
+                <figure>
+                    <img src="images/employee1.jpg" alt="John Doe">
+                    <figcaption>John Doe - Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Jane Smith">
+                    <figcaption>Jane Smith - Safety Expert</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Mike Johnson">
+                    <figcaption>Mike Johnson - River Specialist</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <fieldset>
+                    <legend>Purpose of Your Message:</legend>
+                    <label><input type="radio" name="purpose" value="general_inquiry" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation_question" required> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website_suggestion" required> Website Suggestion</label>
+                </fieldset>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <label><input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter</label>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>©2024 🌴 Harris River Rafting 🌴 Joe Harris 🌴 WDD 130</footer>
+    <nav class="social-links">
+        <a href="https://facebook.com">
+            <img src="images/facebook.webp" alt="Facebook">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/instagram.webp" alt="Instagram">
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/twitter.webp" alt="Twitter">
+        </a>
+    </nav>
+</body>
+</html>
