@@ -157,3 +157,28 @@ section img {
     align-items: center;
     text-align: center;
 }
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.trip-category {
+    flex: 1 1 calc(33.333% - 1rem); 
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: var(--background-color); 
+    border: 1px solid var(--secondary-color); 
+}
+
+
+.trip-summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-summary th, .trip-summary td {
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    text-align: center;
+}
