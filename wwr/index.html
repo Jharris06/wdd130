@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-Us">
+<html lang="en-US">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,21 +19,66 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+    
     <main>
+        <!-- Hero Section -->
         <section class="hero">
             <img src="images/hero.webp" alt="Hero Image">
-            <h2>Welcome to Harris River Rafting</h2>
-            <p>Experience the thrill of whitewater rafting with us. Whether you're a beginner or an experienced rafter, we have the perfect adventure waiting for you.</p>
+            <div class="hero-content">
+                <h2>Welcome to Harris River Rafting</h2>
+                <p>Experience the thrill of whitewater rafting with us. Whether you're a beginner or an experienced rafter, we have the perfect adventure waiting for you.</p>
+            </div>
         </section>
+        
+        <!-- Highlights Section -->
         <section class="highlights">
             <h2>Why Choose Us?</h2>
-            <ul>
-                <li>Experienced Guides</li>
-                <li>Safety First</li>
-                <li>Beautiful Locations</li>
-                <li>Family-Friendly Trips</li>
-            </ul>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="images/home2.jpg" alt="Experienced Guides">
+                    <h3>Experienced Guides</h3>
+                    <p>Our guides are highly trained and experienced in handling all levels of whitewater rafting.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/home3.jpg" alt="Safety First">
+                    <h3>Safety First</h3>
+                    <p>We prioritize safety with thorough briefings and the best equipment.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/home1.jpg" alt="Beautiful Locations">
+                    <h3>Beautiful Locations</h3>
+                    <p>Explore stunning landscapes on our carefully selected rafting routes.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/home4.jpg" alt="Family-Friendly Trips">
+                    <h3>Family-Friendly Trips</h3>
+                    <p>Our trips are suitable for all ages, ensuring a fun and safe experience for everyone.</p>
+                </div>
+            </div>
         </section>
+        
+        <!-- Newsletter Signup Section -->
+        <section class="newsletter">
+            <h2>Subscribe to Newsletter!</h2>
+            <form action="subscribe.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        
+        <!-- Call to Action Section -->
+        <section class="cta">
+            <h2>Ready for Your Adventure?</h2>
+            <p>Dont wait! Check out our exciting rafting trips and book your adventure today.</p>
+            <a href="trips.html" class="cta-button">Explore Trips</a>
+        </section>
+        
+        <!-- Testimonials Section -->
         <section class="testimonials">
             <h2>What Our Customers Say</h2>
             <blockquote>
@@ -44,7 +89,12 @@
             </blockquote>
         </section>
     </main>
-    <footer>©2024 🌴 Harris River Rafting 🌴 Joe Harris 🌴 WDD 130</footer>
+    
+    <footer>
+        <p>©2024 🌴 Harris River Rafting 🌴 Joe Harris 🌴 WDD 130</p>
+        <p><a href="wireframe.html">View Wireframe</a></p>
+    </footer>
+    
     <nav class="social-links">
         <a href="https://facebook.com">
             <img src="images/facebook.webp" alt="Facebook">
